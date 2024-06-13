@@ -1,0 +1,24 @@
+.logo-footer {
+    filter:  brightness(0) invert(1);
+    width: 122px;
+    height: 40px;
+}
+
+.footer {
+    background-color: var(--black);
+    padding: 63px;
+    margin-top: 27px;
+
+    p {
+        color: var(--white);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

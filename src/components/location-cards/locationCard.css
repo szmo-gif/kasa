@@ -8,6 +8,7 @@
     padding: 20px;
     height: 255px;
     max-width: 400px;
+    margin : 0 20px;
 
     p {
         font-weight: 700;

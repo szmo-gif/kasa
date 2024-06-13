@@ -3,7 +3,7 @@
   background-image: url("../../assets/images/IMG.png");
   background-size: cover;
   height: 111px;
-  width: 100%;
+  width: 90%;
   border-radius: 10px;
   padding: 20px;
   display: flex;
@@ -12,6 +12,8 @@
   color: var(--white);
   z-index: 1;
   overflow: hidden; 
+  margin: auto;
+  margin-bottom: 22px;
 }
 
 .background::before {
