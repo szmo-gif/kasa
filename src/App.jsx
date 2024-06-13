@@ -1,10 +1,10 @@
 import './App.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Home from './components/Home'
-import About from './components/about'
-import NotFound from './components/NotFound'
+import Home from './pages/Home'
+import About from './pages/about'
+import NotFound from './pages/NotFound'
 import NavBar from './components/navBar/navBar'
-import UsingSheet from './components/usingSheet'
+import UsingSheet from './pages/usingSheet'
 
 function App() {
   return (

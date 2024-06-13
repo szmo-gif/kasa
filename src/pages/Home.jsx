@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-
+import BackGround from "../components/background/BackGround";
 
 export default function Home() {
   return (
-    <>
-      <h1>Accueil</h1>
+    <div className="home">
+      <BackGround/>
       <nav>
         <Link to="/usingSheet">Fiche logement</Link>
       </nav>
-    </>
+    </div>
   )
 }

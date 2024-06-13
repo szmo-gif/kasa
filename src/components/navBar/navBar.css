@@ -1,32 +1,29 @@
-:root {
-  --black : #000000;
-}
-
 .navBar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px;
-}
 
-img {
-  width: 145px;
-  height: 47px;
-}
 
-nav {
-  display: flex;
-  gap: 26px;
-}
+  img {
+    width: 145px;
+    height: 47px;
+  }
 
-a {
-  text-decoration: none;
-  color: var(--black);
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 12px;
-}
+  nav {
+    display: flex;
+    gap: 26px;
+  }
 
-.active {
-  border-bottom: 1px solid var(--black);
+  a {
+    text-decoration: none;
+    color: var(--black);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .active {
+    border-bottom: 1px solid var(--black);
+  }
+
 }
