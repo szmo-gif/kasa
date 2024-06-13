@@ -1,6 +1,7 @@
 :root {
   --black : #000000;
   --white : #ffffff;
+  --gradient-orange : linear-gradient(to bottom, #FF5E5E, #D94545)
 }
 
 * {
@@ -11,4 +12,8 @@
 
 body {
   margin: 3%;
+}
+
+a {
+  text-decoration: none;
 }
