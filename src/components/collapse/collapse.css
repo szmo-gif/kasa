@@ -6,7 +6,7 @@
 }
 
 .collapse-header {
-  padding: 10px;
+  padding: 20px;
   cursor: pointer;
   background-color: var(--primary-orange);
   color: var(--white);
@@ -15,12 +15,27 @@
   align-items: center;
   border-radius: 10px;
   width: 90%;
+  height: 30px;
 }
 
 .collapse-content {
-  padding: 10px;
+  padding: 20px;
+  background-color: var(--grey45);
+  max-height: 0;
+  display: none;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.collapse-content.open {
+  max-height: 500px; 
+  display: block;
 }
 
 .collapse-toggle {
   font-size: 1.5em;
+  transition: transform 0.3s ease;
+}
+
+.collapse-toggle.rotate {
+  transform: rotate(180deg);
 }

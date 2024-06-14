@@ -3,6 +3,7 @@
   --white : #ffffff;
   --background-home : #F6F6F6;
   --primary-orange : #FF6060;
+  --grey45 : hsla(0, 0%, 96%, 0.45);
   --gradient-orange : linear-gradient(to bottom, #FF5E5E, #D94545)
 }
 
@@ -20,4 +21,11 @@ a {
 body {
   max-width: 1440px;
   margin: auto;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }

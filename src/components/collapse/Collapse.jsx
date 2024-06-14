@@ -14,12 +14,16 @@ const Collapse = ({ title, children }) => {
     <div className="collapse-container">
       <div className="collapse-header" onClick={toggleCollapse}>
         <h3>{title}</h3>
-        <FontAwesomeIcon icon={isOpen ? faChevronUp : faChevronDown} className="collapse-toggle" />
+        <FontAwesomeIcon
+          icon={faChevronDown}
+          className={`collapse-toggle ${isOpen ? 'rotate' : ''}`}
+        />
       </div>
-      {isOpen && <div className="collapse-content">{children}</div>}
+      <div className={`collapse-content ${isOpen ? 'open' : ''}`}>
+        {children}
+      </div>
     </div>
   );
 };
-
 export default Collapse;
 
