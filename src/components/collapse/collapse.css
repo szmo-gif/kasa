@@ -1,0 +1,26 @@
+.collapse-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.collapse-header {
+  padding: 10px;
+  cursor: pointer;
+  background-color: var(--primary-orange);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.collapse-content {
+  padding: 10px;
+}
+
+.collapse-toggle {
+  font-size: 1.5em;
+}
