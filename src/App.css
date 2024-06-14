@@ -1,6 +1,7 @@
 :root {
   --black : #000000;
   --white : #ffffff;
+  --background-home : #F6F6F6;
   --gradient-orange : linear-gradient(to bottom, #FF5E5E, #D94545)
 }
 
@@ -13,4 +14,9 @@
 
 a {
   text-decoration: none;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
 }
