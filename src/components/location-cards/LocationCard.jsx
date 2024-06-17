@@ -1,9 +1,10 @@
 import './locationCard.css'
 
-export default function LocationCard() {
+export default function LocationCard({src, title, alt}) {
   return (
-    <div className="orange-card">
-      <p>Titre de la location</p>
-    </div>
+    <figure className="orange-card">
+      <img src={src} alt={alt} />
+      <figcaption>{title}</figcaption>
+    </figure>
   )
 }

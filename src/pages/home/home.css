@@ -13,10 +13,6 @@
     gap: 22px;
 }
 
-.hidden-portable {
-    display: none;
-}
-
 @media screen and (min-width: 842px) {
     .hidden-portable {
         display: block;

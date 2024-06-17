@@ -14,7 +14,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="/usingSheet" element={<UsingSheet />}/>
+          <Route path="/usingSheet/:id" element={<UsingSheet />}/>
           <Route path="/about" element={<About />}/>
           <Route path="*" element={<NotFound />}/>
         </Routes>
