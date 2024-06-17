@@ -1,5 +1,5 @@
-import Header from "../components/header-about/HeaderAbout";
-import Collapse from "../components/collapse/Collapse";
+import Header from "../../components/header-about/HeaderAbout";
+import Collapse from "../../components/collapse/Collapse";
 import './about.css';
 
 export default function about() {

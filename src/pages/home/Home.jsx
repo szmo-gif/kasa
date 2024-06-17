@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import BackGround from "../components/background/BackGround";
-import LocationCard from "../components/location-cards/LocationCard";
+import BackGround from "../../components/background/BackGround";
+import LocationCard from "../../components/location-cards/LocationCard";
 import './home.css';
 export default function Home() {
   return (

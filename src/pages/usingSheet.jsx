@@ -1,5 +1,7 @@
 export default function usingSheet() {
   return (
-    <h1>Fiche logement</h1>
+    <div>
+      <h1>Fiche logement</h1>
+    </div>
   )
 }
