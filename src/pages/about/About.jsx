@@ -7,16 +7,16 @@ export default function about() {
     <>
       <Header />
       <div className="about-container">
-      <Collapse title="Section 1">
+      <Collapse title="Fiabilité">
         <p>Voici le contenu de la section 1. Cliquez pour ouvrir/fermer.</p>
       </Collapse>
-      <Collapse title="Section 2">
+      <Collapse title="Respect">
         <p>Voici le contenu de la section 2. Cliquez pour ouvrir/fermer.</p>
       </Collapse>
-      <Collapse title="Section 3">
+      <Collapse title="Service">
         <p>Voici le contenu de la section 3. Cliquez pour ouvrir/fermer.</p>
       </Collapse>
-      <Collapse title="Section 4">
+      <Collapse title="Sécutité">
         <p>Voici le contenu de la section 4. Cliquez pour ouvrir/fermer.</p>
       </Collapse>
       </div>

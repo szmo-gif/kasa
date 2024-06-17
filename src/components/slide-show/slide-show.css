@@ -1,0 +1,55 @@
+.slideshow {
+  position: relative;
+  max-width: 90%;
+  margin: auto;
+}
+
+.image {
+  width: 100%;
+  height: 255px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 200%;
+}
+
+button:nth-of-type(1) {
+  left: 10px;
+}
+
+button:nth-of-type(2) {
+  right: 10px;
+}
+
+/* ****mediaqueries**** */
+
+@media screen and (min-width: 842px) {
+  .image {
+    height: 400px;
+  }
+
+  button {
+    font-size: 300%;
+  }
+}
+
+@media screen and (min-width: 1242px) {
+  .image {
+    height: 500px;
+  }
+
+  button {
+    font-size: 400%;
+  }
+  
+}

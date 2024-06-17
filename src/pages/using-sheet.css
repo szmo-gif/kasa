@@ -1,0 +1,18 @@
+.housing-details {
+    margin: 27px 0;
+
+    h1 {
+        color: var(--primary-orange);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        padding: 0 20px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        padding: 0 20px;
+    }
+}

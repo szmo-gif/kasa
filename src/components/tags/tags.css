@@ -1,0 +1,10 @@
+.tags {
+    li {
+        display: inline-block;
+        background-color: var(--primary-orange);
+        color: var(--white);
+        border-radius: 5px;
+        padding: 5px 10px;
+        margin: 20px;
+    }
+}
