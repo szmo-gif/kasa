@@ -1,6 +1,5 @@
 .slideshow {
   position: relative;
-  max-width: 90%;
   margin: auto;
 }
 
@@ -18,7 +17,6 @@ button {
   background-color: transparent;
   color: white;
   border: none;
-  padding: 10px;
   cursor: pointer;
   font-size: 200%;
 }

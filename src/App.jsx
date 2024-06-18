@@ -4,7 +4,7 @@ import Home from './pages/home/Home'
 import About from './pages/about/About'
 import NotFound from './pages/not-found/NotFound'
 import NavBar from './components/navBar/navBar'
-import UsingSheet from './pages/usingSheet'
+import UsingSheet from './pages/using-sheet/usingSheet'
 import Footer from './components/footer/Footer'
 
 function App() {
