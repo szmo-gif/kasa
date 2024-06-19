@@ -3,18 +3,18 @@ import './slide-show.css';
 
 const SlideShow = ({ pictures }) => {
   const [current, setCurrent] = useState(0);
-  const length = pictures.length;
+  const LENGTH = pictures.length;
 
   const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
+    setCurrent(current === LENGTH - 1 ? 0 : current + 1);
   };
 
   const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
+    setCurrent(current === 0 ? LENGTH - 1 : current - 1);
   };
 
   return (
-    <section className="slideshow">
+    <figure className="slideshow">
       <button onClick={prevSlide} className="left-arrow">
         <i className="fas fa-chevron-left"></i>
       </button>
@@ -25,8 +25,8 @@ const SlideShow = ({ pictures }) => {
         <div className={index === current ? 'slide active' : 'slide'} key={index}>
           {index === current && <img src={picture} alt="Logement" className="image" />}
         </div>
-      ))}
-    </section>
+      ))}//TODO rajouter balise b pour numéros
+    </figure>
   );
 };
 

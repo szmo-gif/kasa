@@ -18,17 +18,18 @@ const housing = () => {
   }
 
   return (
-    <div className="housing-details">
+    <main className="housing-details">
       <SlideShow pictures={housing.pictures} />
       <h1>{housing.title}</h1>
       <p>{housing.location}</p>
 
       <Tags tags={housing.tags} index={housing.id} />
+      
       <div className="housing-ratting-host">
         <Rating rating={housing.rating} />
-
         <Host name={housing.host.name} picture={housing.host.picture} />
       </div>
+
       <Collapse title="Description" children={housing.description} />
       <Collapse title="Équipements" children={
         <ul>
@@ -39,7 +40,7 @@ const housing = () => {
       />
 
 
-    </div>
+    </main>
   );
 };
 

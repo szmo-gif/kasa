@@ -6,4 +6,4 @@ export default function background() {
       <h1>Chez vous, partout et ailleurs</h1>
     </div>
   )
-}
+}//TODO rename Banner et change la div en header

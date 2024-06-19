@@ -4,7 +4,7 @@ import './about.css';
 
 export default function about() {
   return (
-    <>
+    <main>
       <Header />
       <div className="about-container">
       <Collapse title="Fiabilité">
@@ -20,6 +20,6 @@ export default function about() {
         <p>Voici le contenu de la section 4. Cliquez pour ouvrir/fermer.</p>
       </Collapse>
       </div>
-    </>
+    </main>
   )
-}
+}//TODO remplacer par ul et li
