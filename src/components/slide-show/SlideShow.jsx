@@ -24,8 +24,9 @@ const SlideShow = ({ pictures }) => {
       {pictures.map((picture, index) => (
         <div className={index === current ? 'slide active' : 'slide'} key={index}>
           {index === current && <img src={picture} alt="Logement" className="image" />}
+          <b>{index + 1}/{pictures.length}</b>
         </div>
-      ))}//TODO rajouter balise b pour numéros
+      ))}
     </figure>
   );
 };

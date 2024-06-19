@@ -9,7 +9,6 @@ import Footer from './components/footer/Footer'
 
 function App() {
   return (
-    <div className="app"> //TODO enlever la div
       <BrowserRouter>
         <NavBar />
         <Routes>
@@ -20,7 +19,6 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </div>
   )
 }
 

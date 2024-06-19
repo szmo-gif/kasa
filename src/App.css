@@ -24,7 +24,7 @@ body {
   margin: auto;
 }
 
-.app {
+[id="root"] {
   display: flex;
   flex-direction: column;
   justify-content: space-between;

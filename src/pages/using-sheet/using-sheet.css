@@ -1,4 +1,4 @@
-.housing-details {
+[id="housing-details"] {
     margin: 27px 27px;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
     }
 }
 
-.housing-ratting-host {
+[id="housing-ratting-host"] {
     display: flex;
     justify-content: space-between;
     align-items: center;

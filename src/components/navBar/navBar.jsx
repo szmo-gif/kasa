@@ -4,9 +4,9 @@ import './navBar.css'
 
 export default function NavBar() {
   return (
-    <div className="navBar">
-      <img src={logo} alt="logo de kasa" /> //TODO remplacer la div par nav et nav par ul, l'img doit etre dans la nav
-      <nav>
+    <nav className="navBar">
+      <ul>
+      <img src={logo} alt="logo de kasa" /> 
         <NavLink
           to="/"
           className={({ isActive }) => isActive ? "active" : undefined}
@@ -18,7 +18,7 @@ export default function NavBar() {
           className={({ isActive }) => isActive ? "active" : undefined}
         >
           A propos</NavLink>
-      </nav>
-    </div>
+      </ul>
+    </nav>
   )
 }

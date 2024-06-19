@@ -6,20 +6,20 @@ export default function about() {
   return (
     <main>
       <Header />
-      <div className="about-container">
+      <ul id="about-container">
       <Collapse title="Fiabilité">
-        <p>Voici le contenu de la section 1. Cliquez pour ouvrir/fermer.</p>
+        <li>Les annonces postées sur Kasa garantissent une fiablilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.</li>
       </Collapse>
       <Collapse title="Respect">
-        <p>Voici le contenu de la section 2. Cliquez pour ouvrir/fermer.</p>
+        <li>La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perburbation du voisinage entraînera une exclusion de notre plateforme.</li>
       </Collapse>
       <Collapse title="Service">
-        <p>Voici le contenu de la section 3. Cliquez pour ouvrir/fermer.</p>
+        <li>La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perburbation du voisinage entraînera une exclusion de notre plateforme.</li>
       </Collapse>
       <Collapse title="Sécutité">
-        <p>Voici le contenu de la section 4. Cliquez pour ouvrir/fermer.</p>
+        <li>La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes.</li>
       </Collapse>
-      </div>
+      </ul>
     </main>
   )
-}//TODO remplacer par ul et li
+}

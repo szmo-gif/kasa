@@ -1,4 +1,4 @@
-.not-found {
+[id="not-found"] {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -33,7 +33,7 @@
 /* ****media Queries**** */
 
 @media screen and (min-width: 842px) {
-    .not-found {
+    [id="not-found"] {
         h1 {
             font-size: 150px;
             line-height: 200px;
@@ -52,7 +52,7 @@
 }
 
 @media screen and (min-width: 1242px) {
-    .not-found {
+    [id="not-found"] {
         h1 {
             font-size: 288px;
             line-height: 411px;

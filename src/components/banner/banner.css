@@ -1,4 +1,4 @@
-.background {
+.banner {
   position: relative;
   background-image: url("../../assets/images/IMG.png");
   background-size: cover;
@@ -15,7 +15,7 @@
   margin: auto;
 }
 
-.background::before {
+.banner::before {
   content: "";
   position: absolute;
   top: 0;
@@ -26,7 +26,7 @@
   z-index: 1; 
 }
 
-.background h1 {
+.banner h1 {
   position: relative;
   z-index: 2;
   font-weight: 700;
@@ -38,7 +38,7 @@
 
 @media screen and (min-width: 768px) {
 
-  .background {
+  .banner {
     display: flex;
     justify-content: center;
 }
