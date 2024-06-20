@@ -4,7 +4,7 @@ import './about.css';
 
 export default function about() {
   return (
-    <main>
+    <main id="about">
       <Header />
       <ul id="about-container">
       <Collapse title="Fiabilité">

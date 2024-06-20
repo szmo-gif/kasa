@@ -4,10 +4,10 @@
     justify-content: flex-end;
 
     img {
-        width: 340px;
         height: 340px;
         object-fit: cover;
         border-radius: 10px;
+        width: 340px;
     }
 
     figcaption {
@@ -20,7 +20,7 @@
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        max-width: 340px;
+        width: 340px;
     }
 }
 

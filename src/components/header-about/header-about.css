@@ -1,6 +1,7 @@
 .header-about{
     display: flex;
     justify-content: center;
+    width: 100%;
 
     img{
         width: 90%;
@@ -8,7 +9,6 @@
         object-fit: cover;
         border-radius: 10px;
         filter: brightness(0.5);
-        margin-top: 19px;
     }
 }
 

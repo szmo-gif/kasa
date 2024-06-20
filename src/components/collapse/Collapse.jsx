@@ -15,7 +15,7 @@ const Collapse = ({ title, children }) => {
       <div className="collapse-header" onClick={toggleCollapse}>
         <h2>{title}</h2>
         <FontAwesomeIcon
-          icon={faChevronDown}
+          icon={faChevronUp}
           className={`collapse-toggle ${isOpen ? 'rotate' : ''}`}
         />
       </div>

@@ -8,10 +8,12 @@
   padding: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  object-position: center;
   margin-bottom: 22px;
   color: var(--white);
   z-index: 1;
-  overflow: hidden; 
+  overflow: hidden;
   margin: auto;
 }
 
@@ -22,8 +24,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5); 
-  z-index: 1; 
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 .banner h1 {
@@ -40,13 +42,20 @@
 
   .banner {
     display: flex;
-    justify-content: center;
-    object-position: center;
 
+
+    h1 {
+      font-size: 35px;
+      line-height: 45px;
+    }
+  }
+}
+
+@media screen and (min-width: 1242px) {
+  .banner {
     h1 {
       font-size: 48px;
       line-height: 69px;
     }
-}
-
+  }
 }

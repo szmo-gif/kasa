@@ -6,14 +6,14 @@
 }
 
 .collapse-header {
-  padding: 20px;
+  padding: 30px 10px ;
   cursor: pointer;
   background-color: var(--primary-orange);
   color: var(--white);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 100%;
   height: 30px;
 }
