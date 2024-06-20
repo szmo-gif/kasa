@@ -1,8 +1,8 @@
-import './locationCard.css'
+import './location-card.css'
 
 export default function LocationCard({src, title, alt}) {
   return (
-    <figure className="orange-card">
+    <figure className="card">
       <img src={src} alt={alt} />
       <figcaption>{title}</figcaption>
     </figure>

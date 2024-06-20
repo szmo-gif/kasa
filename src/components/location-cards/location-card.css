@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    img {
+        width: 340px;
+        height: 340px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    figcaption {
+        position: relative;
+        bottom: 40px;
+        background-color: var(--name-card);
+        color: var(--white);
+        padding: 10px;
+        border-radius: 0 0 10px 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 340px;
+    }
+}
+

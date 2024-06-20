@@ -1,5 +1,5 @@
 [id="housing-details"] {
-    margin: 27px 27px;
+    margin: 27px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -22,4 +22,51 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+[id="housing-media"] {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+[id="housing-infos"] {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+[id="housing-collapse"] {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ****media queries**** */
+
+@media screen and (min-width: 842px) {
+    [id="housing-media"] {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    [id="housing-ratting-host"] {
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: space-around;
+}
+
+    [id="housing-infos"] {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    [id="housing-collapse"] {
+        display: flex;
+        flex-direction: row;
+        gap: 76px;
+    }
+
 }

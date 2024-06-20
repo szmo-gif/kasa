@@ -1,6 +1,18 @@
 .slideshow {
   position: relative;
-  margin: auto;
+
+  b {
+    display: none;
+    position: relative;
+    bottom: 40px;
+    left: 50%;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  ;
 }
 
 .image {
@@ -42,12 +54,17 @@ button:nth-of-type(2) {
 }
 
 @media screen and (min-width: 1242px) {
-  .image {
-    height: 500px;
-  }
+  .slideshow {
+    b {
+      display: block;
+    }
 
-  button {
-    font-size: 400%;
+    .image {
+      height: 500px;
+    }
+
+    button {
+      font-size: 400%;
+    }
   }
-  
 }

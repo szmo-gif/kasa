@@ -5,8 +5,8 @@ import './navBar.css'
 export default function NavBar() {
   return (
     <nav className="navBar">
-      <ul>
       <img src={logo} alt="logo de kasa" /> 
+      <ul>
         <NavLink
           to="/"
           className={({ isActive }) => isActive ? "active" : undefined}

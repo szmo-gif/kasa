@@ -11,7 +11,7 @@
     height: 47px;
   }
 
-  nav {
+  ul {
     display: flex;
     gap: 26px;
   }

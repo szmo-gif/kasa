@@ -20,24 +20,28 @@ const housing = () => {
   return (
     <main id="housing-details">
       <SlideShow pictures={housing.pictures} />
-      <h1>{housing.title}</h1>
-      <p>{housing.location}</p>
+      <div id="housing-media">
+        <div id="housing-infos">
+          <h1>{housing.title}</h1>
+          <p>{housing.location}</p>
+          <Tags tags={housing.tags} index={housing.id} />
+        </div>
 
-      <Tags tags={housing.tags} index={housing.id} />
-      
-      <div id="housing-ratting-host">
-        <Rating rating={housing.rating} />
-        <Host name={housing.host.name} picture={housing.host.picture} />
+        <div id="housing-ratting-host">
+          <Rating rating={housing.rating} />
+          <Host name={housing.host.name} picture={housing.host.picture} />
+        </div>
       </div>
-
-      <Collapse title="Description" children={housing.description} />
-      <Collapse title="Équipements" children={
-        <ul>
-          {housing.equipments.map((equipement, index) => (
-            <li key={index}>{equipement}</li>
-          ))}
-        </ul>}
-      />
+      <div id="housing-collapse">
+        <Collapse title="Description" children={housing.description} />
+        <Collapse title="Équipements" children={
+          <ul>
+            {housing.equipments.map((equipement, index) => (
+              <li key={index}>{equipement}</li>
+            ))}
+          </ul>}
+        />
+      </div>
 
 
     </main>

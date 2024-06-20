@@ -13,6 +13,14 @@ const SlideShow = ({ pictures }) => {
     setCurrent(current === 0 ? LENGTH - 1 : current - 1);
   };
 
+  if (LENGTH <= 1) {
+    return(
+      <figure className="slideshow">
+        <img src={pictures[0]} alt="Logement" className="image" />
+      </figure>
+    )
+  }
+
   return (
     <figure className="slideshow">
       <button onClick={prevSlide} className="left-arrow">
@@ -24,9 +32,9 @@ const SlideShow = ({ pictures }) => {
       {pictures.map((picture, index) => (
         <div className={index === current ? 'slide active' : 'slide'} key={index}>
           {index === current && <img src={picture} alt="Logement" className="image" />}
-          <b>{index + 1}/{pictures.length}</b>
         </div>
       ))}
+      <b>{current + 1}/{LENGTH}</b>
     </figure>
   );
 };
