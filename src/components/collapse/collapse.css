@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  display: block;
 }
 
 .collapse-header {
@@ -19,16 +20,18 @@
 }
 
 .collapse-content {
-  padding: 20px;
   background-color: var(--grey45);
   max-height: 0;
-  display: none;
-  /* transition: max-height 0.5s ease, opacity 0.5s ease; */
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
 }
 
 .collapse-content.open {
-  max-height: 500px; 
-  display: block;
+  max-height: 500px;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .collapse-toggle {
