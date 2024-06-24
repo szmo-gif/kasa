@@ -42,6 +42,7 @@
 
   .banner {
     display: flex;
+    height: 170px;
 
 
     h1 {
@@ -53,6 +54,7 @@
 
 @media screen and (min-width: 1242px) {
   .banner {
+    height: 223px;
     h1 {
       font-size: 48px;
       line-height: 69px;

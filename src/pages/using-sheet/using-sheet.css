@@ -1,8 +1,9 @@
 [id="housing-details"] {
-    margin: 0 27px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-width: 90%;
+    margin: auto;
 
     h1 {
         color: var(--primary-orange);
