@@ -5,19 +5,23 @@ import './navBar.css'
 export default function NavBar() {
   return (
     <nav className="navBar">
-      <img src={logo} alt="logo de kasa" /> 
+      <img src={logo} alt="logo de kasa" />
       <ul>
-        <NavLink
-          to="/"
-          className={({ isActive }) => isActive ? "active" : undefined}
-        >
-          Accueil
-        </NavLink>
-        <NavLink
-          to="/about"
-          className={({ isActive }) => isActive ? "active" : undefined}
-        >
-          A propos</NavLink>
+        <li>
+          <NavLink
+            to="/"
+            className={({ isActive }) => isActive ? "active" : undefined}
+          >
+            Accueil
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/about"
+            className={({ isActive }) => isActive ? "active" : undefined}
+          >
+            A propos</NavLink>
+        </li>
       </ul>
     </nav>
   )

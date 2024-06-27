@@ -8,26 +8,32 @@
     background-color: var(--black);
     padding: 63px;
     max-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 
     p {
         color: var(--white);
         font-weight: 500;
         font-size: 12px;
         line-height: 17px;
-    }
-}
-
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+        margin-top: 10px;
+        width: 122px;
+        text-align: center;
+        }
 }
 
 /* ****mediaqueries**** */
 
 @media screen and (min-width: 768px) {
-    .footer-container {
-        gap: 30px;
+    .footer {
+
+        p {
+            margin-top: 30px;
+            width: 100%;
+            position: relative;
+            right: 2rem;
+        }
     }
 }

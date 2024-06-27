@@ -4,7 +4,7 @@
     align-items: center;
     gap: 10.5px;
 
-    h3{
+    figcaption{
         text-align: end;
         font-weight: 500;
         font-size: 12px;

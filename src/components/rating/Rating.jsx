@@ -6,14 +6,18 @@ const Rating = ({ rating }) => {
   const emptyStars = 5 - fullStars;
 
   return (
-    <div className="rating">
+    <ul className="rating">
       {[...Array(fullStars)].map((_, index) => (
-        <i key={index} className="fas fa-star full-star"></i>
+        <li>
+          <i key={index} className="fas fa-star full-star"></i>
+        </li>
       ))}
       {[...Array(emptyStars)].map((_, index) => (
-        <i key={index} className="fas fa-star empty-star"></i>
+        <li>
+          <i key={index} className="fas fa-star empty-star"></i>
+        </li>
       ))}
-    </div>
+    </ul>
   );
 };
 

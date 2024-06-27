@@ -6,3 +6,8 @@
 .empty-star {
     color: var(--grey);
 }
+
+.rating {
+    display: flex;
+    gap: 5px;
+}

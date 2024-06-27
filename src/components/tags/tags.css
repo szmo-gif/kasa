@@ -1,9 +1,7 @@
 .tags {
-    ul {
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
-    }
 
     li {
         background-color: var(--primary-orange);

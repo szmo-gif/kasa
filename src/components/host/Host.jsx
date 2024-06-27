@@ -2,9 +2,9 @@ import './host.css'
 
 export default function Host({name, picture}) {
   return (
-    <div className="host">
-      <h3>{name}</h3>
+    <figure className="host">
+      <figcaption>{name}</figcaption>
       <img src={picture} alt={name}/>
-    </div>
+    </figure>
   )
 }
