@@ -3,11 +3,12 @@ import Banner from "../../components/banner/Banner";
 import LocationCard from "../../components/location-cards/LocationCard";
 import data from '../../assets/data.json';
 import './home.css';
+import img from "../../assets/images/IMG.png";
 
 export default function Home() {
   return (
     <main id="home">
-      <Banner />
+      <Banner src={img} alt="paysage de montagne" title="Chez vous, partout et ailleurs" />
         <ul id="home-nav">
           {data.map((usingSheet) => (
             <li key={usingSheet.id}>
