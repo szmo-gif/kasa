@@ -43,7 +43,7 @@ button:nth-of-type(2) {
 
 /* ****mediaqueries**** */
 
-@media screen and (min-width: 842px) {
+@media screen and (min-width: 768px) {
   .image {
     height: 400px;
   }

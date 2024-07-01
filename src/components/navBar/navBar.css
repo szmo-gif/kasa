@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px;
-  margin-bottom: 0;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
 
 
   img {
@@ -31,9 +32,9 @@
 
 /* ****mediaqueries**** */
 
-@media screen and (min-width: 842px) {
+@media screen and (min-width: 768px) {
   .navBar {
-  margin: 50px 100px;
+    margin-top: 45px;
 
     img{
       width: 210px;

@@ -28,7 +28,7 @@
     border-radius: 20px;
   }
 
-  @media screen and (min-width: 1366px) {
+  @media screen and (min-width: 1242px) {
     li{
       width: calc((100% - 60px) / 3);
     }
