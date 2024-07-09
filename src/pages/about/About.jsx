@@ -6,7 +6,7 @@ import './about.css';
 export default function about() {
   return (
     <main id="about">
-      <Banner src={img} alt="paysage de montagne" className="banner"/>
+      <Banner src={img} alt="paysage de montagne"/>
       <ul id="about-container">
         <li>
           <Collapse title="Fiabilité">

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Banner from "../../components/banner/Banner";
-import LocationCard from "../../components/location-cards/LocationCard";
+import LocationCard from "../../components/location-card/LocationCard";
 import data from '../../assets/data.json';
 import './home.css';
 import img from "../../assets/images/IMG.png";
